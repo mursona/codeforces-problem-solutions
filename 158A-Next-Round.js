@@ -1,3 +1,10 @@
+//input 
+//   8 5 ----- n & k
+//   10 8 9 7 7 7 5 5 --- c array type
+//   10      8       9        7        7       7       5      5
+// index-0 index-1 index-2  index-3 index-4 index-5 index-6 index-7
+// calculation is:
+// if c[k-1] =< c[indexvalue] --- index-4 = 7 <= c[indexvalu] then count+1
 const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
